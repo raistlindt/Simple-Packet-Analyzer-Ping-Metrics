@@ -8,8 +8,9 @@ The included packet capture txt files are in the Captures folder. Here is a brie
 # filter_packets.py:
 	Includes the filter_packets function.
 	In this function you can adjust the path of the captures you want to filter by changing the 
-	nodeTxts list. Depending on the length of the list it will filter through the txt file and 		return a list of packets that use the ping utility. It checks the 	  packet summary line to see if
-	the packet type includes the string 'Echo', which is in the ping echo request and reply ICMP 		packet types.
+	nodeTxts list. Depending on the length of the list it will filter through the txt file and 		
+	return a list of packets that use the ping utility. It checks the packet summary line to see if
+	the packet type includes the string 'Echo', which is in the ping echo request and reply ICMP packet types.
 
 # packet_parser.py:
 	This function takes the filtered packet list of echo requests and replies and parses them for
